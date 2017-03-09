@@ -16,4 +16,22 @@ function validate(){
   document.getElementById("passwordError").classList.add("shown-message");
   //Turn the password items red
   document.getElementById("passwordGroup").classList.add("has-error");
+  var = userEntered
+  if (userEntered < 6) {
+    alert("Your username must be atleast 6 characters.")
+    return false;
+  }
+    else {
+      return true;
+    }
+
+  string = password
+  if (password == "password") {
+    alert("Your password cannot be "password".")
+    return false;
+  }
+    else {
+    return true;
+    }
+
 }
